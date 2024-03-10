@@ -1,3 +1,3 @@
 # phyxls.com
-Static presentation website built for the Phyxls NFT project.
+Presentation website built for the Phyxls art project.
 
