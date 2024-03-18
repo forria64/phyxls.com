@@ -6,5 +6,6 @@
 _|            ____/                                            
 ```
 
-# Presentation website built for the Phyxls art project.
+## Presentation website built for the Phyxls art project.
+## v1.0
 
