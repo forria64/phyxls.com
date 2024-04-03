@@ -1,5 +1,3 @@
-/* phyxls.com v1.0*/
-
 @font-face {
 font-family: 'pixelfy';
 src: url('/fonts/pixelfy.ttf') format('truetype');
@@ -152,11 +150,13 @@ transform: scale(1.1);
 display: flex;
 align-items: center;
 	margin-right: 10px;
+	z-index: 0;
 }
 
 .powered-by {
 margin-right: 10px;
 font-size: 26px;
+z-index: 1;
 }
 
 .footer-link {
@@ -164,6 +164,7 @@ text-decoration: none;
 color: #fafbf8;
 margin-right: 10px;
 transition: transform 0.3s ease;
+z-index: 1;
 }
 
 .footer-link:hover {
@@ -175,7 +176,9 @@ transition: transform 0.3s ease;
 width: 30px;
 height: 43px;
 margin-right: 0px;
-margin-bottom:6px;}
+margin-bottom:6px;
+z-index: 1;
+}
 
 .bioniq:hover .bioniq{
 transform: scale(1.3);
@@ -257,7 +260,8 @@ height: 30px;
 width: 21px;
 height: 30px;
 margin-right: 0px;
-margin-top: 1px;}
+margin-top: 1px;
+}
 
 .logo {
 height: 70px;
@@ -283,5 +287,63 @@ margin-left: 20px;
 max-width: 100%;  
 }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Menu*/
+
+.menu-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: relative; /* Ensure proper stacking context */
+  z-index: 1001; /* Ensure the icon is above the menu */
+}
+
+.menu {
+  position: fixed;
+  padding-top: 50px;
+  top: 0;
+  right: 0;
+  width: 150px; /* Adjust width as needed */
+  height: 100%;
+  background-color: #202120;
+  transition: transform 0.3s ease;
+  transform: translateX(100%);
+  z-index: 1000; /* Ensure the menu is below the icon */
+}
+
+
+/* Menu buttons */
+.menu-button {
+margin-left: 10px;
+  width: 90%;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: transparent;
+  border: 3px dashed #6800ff;
+  color: #fafbf8;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+ transition: border 1s ease;
+  letter-spacing: 4px;
+font-family: 'pixelfy';
+z-index: 900;
+}
+
+.menu-button:hover {
+  border: 3px solid #6800ff;
 }
 
