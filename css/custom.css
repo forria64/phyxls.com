@@ -1,5 +1,3 @@
-/* phyxls.com v1.0*/
-
 @font-face {
 font-family: 'pixelfy';
 src: url('/fonts/pixelfy.ttf') format('truetype');
@@ -48,7 +46,7 @@ width: 100%;
 .header-left {
 display: flex;
 align-items: center;
-margin-left:0px;
+margin-left:6px;
 }
 
 .logo {
@@ -80,7 +78,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-width: 100%; /* Adjust as needed */
+width: 100%;
 margin-left: 42px;
 }
 
@@ -89,6 +87,7 @@ font-size: 26px;
 text-align: center;
 line-height: 1.5;
 min-width: 350px;
+max-width: 510px;
 margin-bottom: 0px;
 }
 
@@ -118,6 +117,40 @@ transition: transform 0.3s ease;
  transform: scale(4);
 }
 
+
+.video-container-home {
+transform: scale(1.0092);
+width: 100%;
+height: auto;
+transition: transform 0.3s ease;
+}
+
+.video-container-home:hover {
+ transform: scale(4);
+}
+
+
+
+.white_phyxl {
+width: 100%;
+height: auto;
+transition: transform 0.3s ease;
+}
+
+.white_phyxl:hover {
+ transform: scale(4);
+ }
+
+.revenue {
+width: 100%;
+height: auto;
+}
+
+.pfp {
+width: 100%;
+height: auto;
+}
+
 /* FOOTER */
 
 .footer-container {
@@ -134,7 +167,7 @@ width: 100%;
 
 .footer-left {
 display: flex;
-margin-left: 20px;
+margin-left: 25px;
 }
 
 .social-icon {
@@ -151,19 +184,23 @@ transform: scale(1.1);
 .footer-right {
 display: flex;
 align-items: center;
-	margin-right: 10px;
+margin-right: 10px;
+z-index: 0;
+margin-bottom: 10px;
 }
 
 .powered-by {
 margin-right: 10px;
 font-size: 26px;
+z-index: 1;
 }
 
 .footer-link {
 text-decoration: none;
 color: #fafbf8;
-margin-right: 10px;
+margin-right: 15px;
 transition: transform 0.3s ease;
+z-index: 1;
 }
 
 .footer-link:hover {
@@ -174,12 +211,150 @@ transform: scale(1.3);
 transition: transform 0.3s ease;
 width: 30px;
 height: 43px;
-margin-right: 0px;
-margin-bottom:6px;}
+z-index: 1;
+position: relative;
+top: 7px;
+padding-right: 5px;
+}
 
 .bioniq:hover .bioniq{
-transform: scale(1.3);
+transform: scale(1.1);
 }
+
+.menu-icon {
+width: 75px;
+height: 75px;
+cursor: pointer;
+position: relative; /* Ensure proper stacking context */
+z-index: 1001; /* Ensure the icon is above the menu */
+margin-right: 10px;
+}
+
+.menu {
+position: fixed;
+padding-top: 140px;
+top: 0;
+right: 0;
+width: 272px; /* Adjust width as needed */
+height: 100%;
+background-color: #0d0f09;
+transition: transform 0.5s ease;
+transform: translateX(100%);
+z-index: 1000; /* Ensure the menu is below the icon */
+}
+
+.menu-button {
+margin-left: 15px;
+width: 90%;
+height: auto;
+margin-top: 30px;
+padding: 15px;
+background-color: transparent;
+color: #fafbf8;
+font-size: 26px;
+text-align: left;
+cursor: pointer;
+transition: transform 0.3s ease, filter 0.3s ease;
+transition: color 0.3s ease;
+letter-spacing: 4px;
+font-family: 'pixelfy';
+z-index: 900;
+overflow: hidden;
+}
+
+
+
+.menu-button:hover {
+transform: scale(1.1);
+color: #6800ff;
+}
+
+.submenu-button {
+margin-left: 35px;
+width: 90%;
+height: auto;
+margin-top: 10px;
+padding: 15px;
+background-color: transparent;
+color: #fafbf8;
+font-size: 20px;
+text-align: left;
+cursor: pointer;
+transition: transform 0.3s ease, filter 0.3s ease;
+transition: color 0.3s ease;
+letter-spacing: 4px;
+font-family: 'pixelfy';
+z-index: 900;
+overflow: hidden;
+}
+
+
+.submenu-button:hover {
+transform: scale(1.1);
+color: #6800ff;
+}
+
+.submenu-button-select {
+margin-left: 35px;
+width: 90%;
+height: auto;
+margin-top: 10px;
+padding: 15px;
+background-color: transparent;
+color: #fafbf8;
+font-size: 20px;
+text-align: left;
+cursor: pointer;
+transition: transform 0.3s ease, filter 0.3s ease;
+transition: color 0.3s ease;
+letter-spacing: 4px;
+font-family: 'pixelfy';
+z-index: 900;
+overflow: hidden;
+transform: scale(1.1);
+color: #6800ff;
+}
+
+
+.menu-button-select {
+margin-left: 15px;
+width: 90%;
+height: auto;
+margin-top: 30px;
+padding: 15px;
+background-color: transparent;
+color: #6800ff;
+font-size: 26px;
+text-align: left;
+cursor: pointer;
+transform: scale(1.1);
+letter-spacing: 4px;
+font-family: 'pixelfy';
+z-index: 900;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+.submenu {
+  display: none;
+  padding-left: 20px;
+}
+
+.menu-button.active + .submenu {
+  display: block;
+}
+
+
+
+
+
+
+
 
 /* MOBILE */
 
@@ -227,24 +402,26 @@ margin-top: 0px;
 margin-bottom: 85px;
 order: 2;
 margin-right: 0px;
+height: 200px;
 }
 
 .body-right {
 margin-left: 0px;
-width: 68vmin;
-height: 68vmin;
+width: 50vmin;
+height: 50vmin;
 margin-left: 0px;
 margin-right: 0px;
 margin-bottom: 8px;
 }
 
 .footer-right {
-margin-right: 10px;
+
 }
 
 .powered-by {
 margin-right: 7px;
 font-size: 15px;
+line-heigth: 10px;
 }
 
 .social-icon {
@@ -256,8 +433,7 @@ height: 30px;
 .bioniq {
 width: 21px;
 height: 30px;
-margin-right: 0px;
-margin-top: 1px;}
+}
 
 .logo {
 height: 70px;
@@ -283,5 +459,62 @@ margin-left: 20px;
 max-width: 100%;  
 }
 
+.menu-icon {
+  width: 60px;
+  height: 60px;
 }
+/* to fix after production test*/
+.menu {
+position: fixed;
+padding-top: 100px;
+top: 0;
+right: 0;
+width: 200px;
+}
+
+.menu-button {
+margin-left: 15px;
+width: 90%;
+height: auto;
+margin-top: 30px;
+padding: 15px;
+font-size: 15px;
+}
+
+.menu-button-select {
+margin-left: 15px;
+width: 90%;
+height: auto;
+margin-top: 30px;
+padding: 15px;
+font-size: 15px;
+transform: scale(1.1);
+color: #6800ff;
+}
+
+
+
+.submenu-button {
+margin-left: 35px;
+width: 90%;
+height: auto;
+margin-top: 12px;
+padding: 15px;
+font-size: 13.5px;
+}
+
+.submenu-button-select {
+margin-left: 35px;
+width: 90%;
+height: auto;
+margin-top: 12px;
+padding: 15px;
+font-size: 13.5px;
+transform: scale(1.1);
+color: #6800ff;
+}
+
+
+}
+
 
