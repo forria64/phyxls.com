@@ -129,17 +129,21 @@ transition: transform 0.3s ease;
  transform: scale(4);
 }
 
-
+.creation {
+width: 100%;
+height: auto;
+}
 
 .white_phyxl {
 width: 100%;
 height: auto;
-transition: transform 0.3s ease;
 }
 
-.white_phyxl:hover {
- transform: scale(4);
- }
+.loop {
+width: 100%;
+height: auto;
+transform: scale(1.0092);
+}
 
 .revenue {
 width: 100%;
@@ -161,13 +165,8 @@ right: 0;
 z-index: 1000;
 display: flex;
 justify-content: space-between;
-align-items: center;
-width: 100%;
-}
-
-.footer-left {
-display: flex;
-margin-left: 25px;
+margin-left: 5px;
+margin-bottom: 10px;
 }
 
 .social-icon {
@@ -213,8 +212,8 @@ width: 30px;
 height: 43px;
 z-index: 1;
 position: relative;
-top: 7px;
 padding-right: 5px;
+margin-bottom: -1.5px;
 }
 
 .bioniq:hover .bioniq{
@@ -227,7 +226,7 @@ height: 75px;
 cursor: pointer;
 position: relative; /* Ensure proper stacking context */
 z-index: 1001; /* Ensure the icon is above the menu */
-margin-right: 10px;
+margin-right: 20px;
 }
 
 .menu {
@@ -336,7 +335,10 @@ overflow: hidden;
 
 
 
-
+.footer-left {
+display: flex;
+margin-left: 20px;
+}
 
 
 
@@ -391,7 +393,7 @@ flex-direction: column;
 align-items: center;
 max-width: 700px;
 margin-left: 0px;
-margin-top: 40px;
+margin-top: 100px;
 }
 
 .body-left {
@@ -407,15 +409,15 @@ height: 200px;
 
 .body-right {
 margin-left: 0px;
-width: 50vmin;
-height: 50vmin;
+width: 64vmin;
+height: 64vmin;
 margin-left: 0px;
 margin-right: 0px;
 margin-bottom: 8px;
 }
 
 .footer-right {
-
+margin-right: 8px;
 }
 
 .powered-by {
@@ -428,11 +430,18 @@ line-heigth: 10px;
 width: 30px;
 height: 30px;
 	margin-right: 4px;
+	margin-top: 50px;
 }
 
 .bioniq {
 width: 21px;
 height: 30px;
+padding-right: 0px;
+padding-top: 35px;
+margin-bottom: -1.5px;
+}
+
+.bioniq img {
 }
 
 .logo {
@@ -448,11 +457,6 @@ padding-top: 13px;
 padding-left: 20px;
 }
 
-.footer-left {
-display: flex;
-margin-left: 17px;
-}
-
 .container {
 margin: 20px;
 margin-left: 20px;
@@ -460,23 +464,24 @@ max-width: 100%;
 }
 
 .menu-icon {
-  width: 60px;
-  height: 60px;
+width: 60px;
+height: 60px;
+margin-right: 18px;
 }
-/* to fix after production test*/
+
 .menu {
 position: fixed;
 padding-top: 100px;
 top: 0;
 right: 0;
-width: 200px;
+width: 170px;
 }
 
 .menu-button {
 margin-left: 15px;
 width: 90%;
 height: auto;
-margin-top: 30px;
+margin-top: 16px;
 padding: 15px;
 font-size: 15px;
 }
@@ -495,11 +500,11 @@ color: #6800ff;
 
 
 .submenu-button {
-margin-left: 35px;
+margin-left: 18px;
 width: 90%;
 height: auto;
-margin-top: 12px;
-padding: 15px;
+margin-top: 0px;
+padding: 10px;
 font-size: 13.5px;
 }
 
@@ -514,7 +519,8 @@ transform: scale(1.1);
 color: #6800ff;
 }
 
-
+.footer-container {
+height: 100px;
 }
 
-
+}
