@@ -393,7 +393,11 @@ flex-direction: column;
 align-items: center;
 max-width: 700px;
 margin-left: 0px;
+<<<<<<< Updated upstream
 margin-top: 100px;
+=======
+margin-top: 50px;
+>>>>>>> Stashed changes
 }
 
 .body-left {
