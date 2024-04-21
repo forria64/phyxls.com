@@ -174,6 +174,7 @@ width: 40px;
 height: 40px;
 margin-right: 15px;
 transition: transform 0.3s ease, filter 0.3s ease;
+margin-top: 10px;
 }
 
 .social-icon:hover {
@@ -393,15 +394,12 @@ flex-direction: column;
 align-items: center;
 max-width: 700px;
 margin-left: 0px;
-<<<<<<< Updated upstream
 margin-top: 100px;
-=======
 margin-top: 50px;
->>>>>>> Stashed changes
 }
 
 .body-left {
-font-size: 15px;
+font-size: 16px;
 text-align: center;
 line-height: 1.2;
 margin-top: 0px;
@@ -426,8 +424,7 @@ margin-right: 8px;
 
 .powered-by {
 margin-right: 7px;
-font-size: 15px;
-line-heigth: 10px;
+font-size: 16px;
 }
 
 .social-icon {
@@ -454,7 +451,7 @@ width: 70px;
 }
 
 .collect-button {
-font-size: 15px;
+font-size: 16px;
 padding: 8px 17px;
 padding: auto;
 padding-top: 13px;
@@ -478,16 +475,16 @@ position: fixed;
 padding-top: 100px;
 top: 0;
 right: 0;
-width: 170px;
+width: 200px;
 }
 
 .menu-button {
 margin-left: 15px;
 width: 90%;
 height: auto;
-margin-top: 16px;
+margin-top: 10px;
 padding: 15px;
-font-size: 15px;
+font-size: 16px;
 }
 
 .menu-button-select {
@@ -496,7 +493,7 @@ width: 90%;
 height: auto;
 margin-top: 30px;
 padding: 15px;
-font-size: 15px;
+font-size: 16px;
 transform: scale(1.1);
 color: #6800ff;
 }
@@ -509,7 +506,7 @@ width: 90%;
 height: auto;
 margin-top: 0px;
 padding: 10px;
-font-size: 13.5px;
+font-size: 16px;
 }
 
 .submenu-button-select {
@@ -518,13 +515,14 @@ width: 90%;
 height: auto;
 margin-top: 12px;
 padding: 15px;
-font-size: 13.5px;
+font-size: 16px;
 transform: scale(1.1);
 color: #6800ff;
 }
 
 .footer-container {
 height: 100px;
+margin-bottom: -4px;
 }
 
 }
