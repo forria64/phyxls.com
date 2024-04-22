@@ -50,26 +50,10 @@ margin-left:6px;
 }
 
 .logo {
-height: 100px;
-width: 100px;
+height: 80px;
+width: 80px;
 } 
 
-.collect-button {
-text-decoration: none;
-color: #fafbf8;
-font-size: 26px;
-border: 1px solid #6800ff;
-padding: 8px 30px;
-border-radius: 1px;
-display: inline-block;
-background-color: #060704;
-transition: background-color 0.3s ease;
-margin-right: 23px;
-padding-top:13px;
-}
-.collect-button:hover {
-background-color: #6800ff;
-}
 
 /* BODY */
 
@@ -79,7 +63,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 width: 100%;
-margin-left: 42px;
+margin-left: 60px;
 }
 
 .body-left {
@@ -107,27 +91,7 @@ max-height: 100%;
 display: flex;
 }
 
-.video-container {
-width: 100%;
-height: auto;
-transition: transform 0.3s ease;
-}
 
-.video-container:hover {
- transform: scale(4);
-}
-
-
-.video-container-home {
-transform: scale(1.0092);
-width: 100%;
-height: auto;
-transition: transform 0.3s ease;
-}
-
-.video-container-home:hover {
- transform: scale(4);
-}
 
 .creation {
 width: 100%;
@@ -155,75 +119,10 @@ width: 100%;
 height: auto;
 }
 
-/* FOOTER */
-
-.footer-container {
-position: fixed;
-bottom: 0;
-left: 0;
-right: 0;
-z-index: 1000;
-display: flex;
-justify-content: space-between;
-margin-left: 5px;
-margin-bottom: 10px;
-}
-
-.social-icon {
-width: 40px;
-height: 40px;
-margin-right: 15px;
-transition: transform 0.3s ease, filter 0.3s ease;
-margin-top: 10px;
-}
-
-.social-icon:hover {
-transform: scale(1.1);
-}
-
-.footer-right {
-display: flex;
-align-items: center;
-margin-right: 10px;
-z-index: 0;
-margin-bottom: 10px;
-}
-
-.powered-by {
-margin-right: 10px;
-font-size: 26px;
-z-index: 1;
-}
-
-.footer-link {
-text-decoration: none;
-color: #fafbf8;
-margin-right: 15px;
-transition: transform 0.3s ease;
-z-index: 1;
-}
-
-.footer-link:hover {
-transform: scale(1.3);
-}
-
-.bioniq {
-transition: transform 0.3s ease;
-width: 30px;
-height: 43px;
-z-index: 1;
-position: relative;
-padding-right: 5px;
-margin-bottom: -1.5px;
-}
-
-.bioniq:hover .bioniq{
-transform: scale(1.1);
-}
 
 .menu-icon {
-width: 75px;
-height: 75px;
+width: 60px;
+height: 60px;
 cursor: pointer;
 position: relative; /* Ensure proper stacking context */
 z-index: 1001; /* Ensure the icon is above the menu */
@@ -232,10 +131,10 @@ margin-right: 20px;
 
 .menu {
 position: fixed;
-padding-top: 140px;
+padding-top: 80px;
 top: 0;
 right: 0;
-width: 272px; /* Adjust width as needed */
+width: 20%; /* Adjust width as needed */
 height: 100%;
 background-color: #0d0f09;
 transition: transform 0.5s ease;
@@ -244,17 +143,15 @@ z-index: 1000; /* Ensure the menu is below the icon */
 }
 
 .menu-button {
-margin-left: 15px;
+margin-left: 30px;
 width: 90%;
 height: auto;
-margin-top: 30px;
-padding: 15px;
+margin-top: 16px;
 background-color: transparent;
 color: #fafbf8;
 font-size: 26px;
 text-align: left;
 cursor: pointer;
-transition: transform 0.3s ease, filter 0.3s ease;
 transition: color 0.3s ease;
 letter-spacing: 4px;
 font-family: 'pixelfy';
@@ -265,22 +162,19 @@ overflow: hidden;
 
 
 .menu-button:hover {
-transform: scale(1.1);
 color: #6800ff;
 }
 
 .submenu-button {
-margin-left: 35px;
+margin-left: 15px;
 width: 90%;
 height: auto;
-margin-top: 10px;
-padding: 15px;
+margin-top: 12px;
 background-color: transparent;
 color: #fafbf8;
 font-size: 20px;
 text-align: left;
 cursor: pointer;
-transition: transform 0.3s ease, filter 0.3s ease;
 transition: color 0.3s ease;
 letter-spacing: 4px;
 font-family: 'pixelfy';
@@ -290,44 +184,37 @@ overflow: hidden;
 
 
 .submenu-button:hover {
-transform: scale(1.1);
 color: #6800ff;
 }
 
 .submenu-button-select {
-margin-left: 35px;
+margin-left: 15px;
 width: 90%;
 height: auto;
-margin-top: 10px;
-padding: 15px;
+margin-top: 12px;
 background-color: transparent;
 color: #fafbf8;
 font-size: 20px;
 text-align: left;
 cursor: pointer;
-transition: transform 0.3s ease, filter 0.3s ease;
-transition: color 0.3s ease;
+color: #6800ff;
 letter-spacing: 4px;
 font-family: 'pixelfy';
 z-index: 900;
 overflow: hidden;
-transform: scale(1.1);
-color: #6800ff;
 }
 
 
 .menu-button-select {
-margin-left: 15px;
+margin-left: 30px;
 width: 90%;
 height: auto;
-margin-top: 30px;
-padding: 15px;
+margin-top: 16px;
 background-color: transparent;
 color: #6800ff;
 font-size: 26px;
 text-align: left;
 cursor: pointer;
-transform: scale(1.1);
 letter-spacing: 4px;
 font-family: 'pixelfy';
 z-index: 900;
@@ -336,10 +223,7 @@ overflow: hidden;
 
 
 
-.footer-left {
-display: flex;
-margin-left: 20px;
-}
+
 
 
 
@@ -418,45 +302,16 @@ margin-right: 0px;
 margin-bottom: 8px;
 }
 
-.footer-right {
-margin-right: 8px;
-}
 
-.powered-by {
-margin-right: 7px;
-font-size: 16px;
-}
 
-.social-icon {
-width: 30px;
-height: 30px;
-	margin-right: 4px;
-	margin-top: 50px;
-}
 
-.bioniq {
-width: 21px;
-height: 30px;
-padding-right: 0px;
-padding-top: 35px;
-margin-bottom: -1.5px;
-}
 
-.bioniq img {
-}
 
 .logo {
-height: 70px;
-width: 70px;
+height: 60px;
+width: 60px;
 }
 
-.collect-button {
-font-size: 16px;
-padding: 8px 17px;
-padding: auto;
-padding-top: 13px;
-padding-left: 20px;
-}
 
 .container {
 margin: 20px;
@@ -465,64 +320,54 @@ max-width: 100%;
 }
 
 .menu-icon {
-width: 60px;
-height: 60px;
+width: 45px;
+height: 45px;
 margin-right: 18px;
 }
 
 .menu {
 position: fixed;
-padding-top: 100px;
+padding-top: 65px;
 top: 0;
 right: 0;
-width: 200px;
+width: 50%;
 }
 
 .menu-button {
-margin-left: 15px;
+margin-left: 30px;
 width: 90%;
 height: auto;
-margin-top: 10px;
-padding: 15px;
+margin-top: 12px;
 font-size: 16px;
 }
 
 .menu-button-select {
-margin-left: 15px;
+margin-left: 30px;
 width: 90%;
 height: auto;
-margin-top: 30px;
-padding: 15px;
+margin-top: 10px;
 font-size: 16px;
-transform: scale(1.1);
 color: #6800ff;
 }
 
 
 
 .submenu-button {
-margin-left: 18px;
+margin-left: 15px;
 width: 90%;
 height: auto;
-margin-top: 0px;
-padding: 10px;
-font-size: 16px;
+margin-top: 10px;
+font-size: 13px;
 }
 
 .submenu-button-select {
-margin-left: 35px;
+margin-left: 15px;
 width: 90%;
 height: auto;
-margin-top: 12px;
-padding: 15px;
+margin-top: 10px;
 font-size: 16px;
-transform: scale(1.1);
 color: #6800ff;
 }
 
-.footer-container {
-height: 100px;
-margin-bottom: -4px;
-}
 
 }
