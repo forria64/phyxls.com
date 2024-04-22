@@ -27,12 +27,27 @@ document.addEventListener('DOMContentLoaded', function() {
     teamDropdown.classList.toggle('active');
   });
 
-  // Open submenu on specific pages
+  // Add event listener to toggle about dropdown
+  const aboutButton = document.getElementById('about-button');
+  const aboutDropdown = document.getElementById('about-dropdown');
+  aboutButton.addEventListener('click', function() {
+    aboutButton.classList.toggle('active');
+    aboutDropdown.classList.toggle('active');
+  });
+
+  // Open submenu on specific pages for Team
   const currentPage = window.location.pathname;
-  const pagesToOpenSubmenu = ['/stefanb.html', '/phovel.html', '/forria.html'];
-  if (pagesToOpenSubmenu.includes(currentPage)) {
+  const pagesToOpenTeamSubmenu = ['/forria.html', '/phovel.html', '/stefanb.html'];
+  if (pagesToOpenTeamSubmenu.includes(currentPage)) {
     teamButton.classList.add('active');
     teamDropdown.classList.add('active');
+  }
+
+  // Open submenu on specific pages for About
+  const pagesToOpenAboutSubmenu = ['/concept.html', '/white_canvas.html', '/digital_processing.html', '/image_properties.html', '/traits.html', '/reveal_game.html'];
+  if (pagesToOpenAboutSubmenu.includes(currentPage)) {
+    aboutButton.classList.add('active');
+    aboutDropdown.classList.add('active');
   }
 
   // Handle click event on "team" link
@@ -50,3 +65,4 @@ document.addEventListener('DOMContentLoaded', function() {
 function navigateTo(url) {
   window.location.href = url;
 }
+
