@@ -6,7 +6,7 @@ font-style: normal;
 }
 
 html {
-letter-spacing: 4px;
+letter-spacing: 2px;
 font-family: 'pixelfy';
 }
 
@@ -76,7 +76,7 @@ margin-bottom: 0px;
 }
 
 .box {
-  inline-size: 40%;
+inline-size: 40%;
 }
 
 .body-right {
@@ -91,34 +91,12 @@ max-height: 100%;
 display: flex;
 }
 
-
-
-.creation {
+.image-slider {
 width: 100%;
 height: auto;
 }
 
-.white_phyxl {
-width: 100%;
-height: auto;
-}
-
-.loop {
-width: 100%;
-height: auto;
-transform: scale(1.0092);
-}
-
-.revenue {
-width: 100%;
-height: auto;
-}
-
-.pfp {
-width: 100%;
-height: auto;
-}
-
+/* MENU */
 
 .menu-icon {
 width: 60px;
@@ -142,6 +120,11 @@ transform: translateX(100%);
 z-index: 1000; /* Ensure the menu is below the icon */
 }
 
+.submenu {
+display: none;
+padding-left: 20px;
+}
+
 .menu-button {
 margin-left: 30px;
 width: 90%;
@@ -153,16 +136,10 @@ font-size: 26px;
 text-align: left;
 cursor: pointer;
 transition: color 0.3s ease;
-letter-spacing: 4px;
+letter-spacing: 2px;
 font-family: 'pixelfy';
 z-index: 900;
 overflow: hidden;
-}
-
-
-
-.menu-button:hover {
-color: #6800ff;
 }
 
 .submenu-button {
@@ -176,15 +153,34 @@ font-size: 20px;
 text-align: left;
 cursor: pointer;
 transition: color 0.3s ease;
-letter-spacing: 4px;
+letter-spacing: 2px;
 font-family: 'pixelfy';
 z-index: 900;
 overflow: hidden;
 }
 
+.menu-button:hover {
+color: #6800ff;
+}
 
 .submenu-button:hover {
 color: #6800ff;
+}
+
+.menu-button-select {
+margin-left: 30px;
+width: 90%;
+height: auto;
+margin-top: 16px;
+background-color: transparent;
+color: #6800ff;
+font-size: 26px;
+text-align: left;
+cursor: pointer;
+letter-spacing: 2px;
+font-family: 'pixelfy';
+z-index: 900;
+overflow: hidden;
 }
 
 .submenu-button-select {
@@ -198,52 +194,17 @@ font-size: 20px;
 text-align: left;
 cursor: pointer;
 color: #6800ff;
-letter-spacing: 4px;
+letter-spacing: 2px;
 font-family: 'pixelfy';
 z-index: 900;
 overflow: hidden;
-}
-
-
-.menu-button-select {
-margin-left: 30px;
-width: 90%;
-height: auto;
-margin-top: 16px;
-background-color: transparent;
-color: #6800ff;
-font-size: 26px;
-text-align: left;
-cursor: pointer;
-letter-spacing: 4px;
-font-family: 'pixelfy';
-z-index: 900;
-overflow: hidden;
-}
-
-
-
-
-
-
-
-.submenu {
-  display: none;
-  padding-left: 20px;
 }
 
 .menu-button.active + .submenu {
   display: block;
 }
 
-
-
-
-
-
-
-
-/* MOBILE */
+/* RESPONSIVE DESIGN */
 
 @media only screen and (min-width: 1150px) {
 
@@ -302,16 +263,10 @@ margin-right: 0px;
 margin-bottom: 8px;
 }
 
-
-
-
-
-
 .logo {
 height: 60px;
 width: 60px;
 }
-
 
 .container {
 margin: 20px;
@@ -350,14 +305,12 @@ font-size: 16px;
 color: #6800ff;
 }
 
-
-
 .submenu-button {
 margin-left: 15px;
 width: 90%;
 height: auto;
 margin-top: 10px;
-font-size: 13px;
+font-size: 14px;
 }
 
 .submenu-button-select {
@@ -368,6 +321,5 @@ margin-top: 10px;
 font-size: 16px;
 color: #6800ff;
 }
-
 
 }
