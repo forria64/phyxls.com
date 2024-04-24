@@ -35,32 +35,32 @@
           <div class="menu-button" onclick="navigateTo('/');">Home</div>
         <div class="menu-button" id="about-button">About</div>
           <div id="about-dropdown" class="submenu">
-            <a href="/concept.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Concept</div></a>
-            <a href="/white_canvas.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• White Canvas</div></a>
-            <a href="/digital_processing.html" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• Digital Processing</div></a>
-                <a href="/image_properties.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Image Properties</div></a>
-            <a href="/traits.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Traits</div></a>
-            <a href="/reveal_game.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Reveal Game</div></a>
+            <a href="/concept" style="text-decoration-color: #00000000;"><div class="submenu-button">• Concept</div></a>
+            <a href="/white_canvas" style="text-decoration-color: #00000000;"><div class="submenu-button">• White Canvas</div></a>
+            <a href="/digital_processing" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• Digital Processing</div></a>
+                <a href="/image_properties" style="text-decoration-color: #00000000;"><div class="submenu-button">• Image Properties</div></a>
+            <a href="/traits" style="text-decoration-color: #00000000;"><div class="submenu-button">• Traits</div></a>
+            <a href="/reveal_game" style="text-decoration-color: #00000000;"><div class="submenu-button">• Reveal Game</div></a>
           </div>
-        <div class="menu-button" onclick="location.href='/revenue.html';">Revenue</div>
+        <div class="menu-button" onclick="location.href='/revenue';">Revenue</div>
           <div class="menu-button" id="team-button">Team</div>
           <div id="team-dropdown" class="submenu">
-            <a href="/stefanb.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• StefanB</div></a>
-            <a href="/phovel.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Phovel</div></a>
-            <a href="/forria.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Forria</div></a>
+            <a href="/stefanb" style="text-decoration-color: #00000000;"><div class="submenu-button">• StefanB</div></a>
+            <a href="/phovel" style="text-decoration-color: #00000000;"><div class="submenu-button">• Phovel</div></a>
+            <a href="/forria" style="text-decoration-color: #00000000;"><div class="submenu-button">• Forria</div></a>
           </div>
-        <div class="menu-button" onclick="navigateTo('/contact.html');">Contact</div>
+        <div class="menu-button" onclick="navigateTo('/contact');">Contact</div>
           <a href="https://bioniq.io/launchpad/featured" style="text-decoration-color: #00000000;" target="_blank"><div class="menu-button">Collect</div></a>
         </div>
         </div>
           </div>
                   <div class="body-container">
                     <div class="body-left web-content box">
-                    <p>The canvas is split into 64 distinct phyxls using Photoshop. Through a <a href="https://github.com/forria64/orca" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Python script</a>, we generate 170 randomized color variations for each phyx.<br><br>
+                    <p>The canvas is split into 64 distinct phyxls using Photoshop. Through a <a href="https://github.com/forria64/orca" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Python script</a>, we generate 170 randomized color variations for each phyxl.<br><br>
 They are then recombined into the final artworks, all displayed against a monochromatic background.</p>
                     </div>
                     <div class="body-left mobile-content box">
-                    <p>The canvas is split into 64 distinct phyxls using Photoshop. Through a <a href="https://github.com/forria64/orca" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Python script</a>, we generate 170 randomized color variations for each phyx.<br><br>
+                    <p>The canvas is split into 64 distinct phyxls using Photoshop. Through a <a href="https://github.com/forria64/orca" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Python script</a>, we generate 170 randomized color variations for each phyxl.<br><br>
 They are then recombined into the final artworks, all displayed against a monochromatic background.</p>
                     </div>
                     <div class="body-right">

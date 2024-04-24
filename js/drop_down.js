@@ -37,14 +37,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Open submenu on specific pages for Team
   const currentPage = window.location.pathname;
-  const pagesToOpenTeamSubmenu = ['/forria.html', '/phovel.html', '/stefanb.html'];
+  const pagesToOpenTeamSubmenu = ['/forria', '/phovel', '/stefanb'];
   if (pagesToOpenTeamSubmenu.includes(currentPage)) {
     teamButton.classList.add('active');
     teamDropdown.classList.add('active');
   }
 
   // Open submenu on specific pages for About
-  const pagesToOpenAboutSubmenu = ['/concept.html', '/white_canvas.html', '/digital_processing.html', '/image_properties.html', '/traits.html', '/reveal_game.html'];
+  const pagesToOpenAboutSubmenu = ['/concept', '/white_canvas', '/digital_processing', '/image_properties', '/traits', '/reveal_game'];
   if (pagesToOpenAboutSubmenu.includes(currentPage)) {
     aboutButton.classList.add('active');
     aboutDropdown.classList.add('active');
