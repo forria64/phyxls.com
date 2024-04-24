@@ -15,5 +15,5 @@
 
     changeImage();
 
-    setInterval(changeImage, 1200);
+    setInterval(changeImage, 980);
   });

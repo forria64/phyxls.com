@@ -1,5 +1,6 @@
 <!DOCTYPE html>
   <html lang="en">
+  
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -19,62 +20,54 @@
       <link rel="stylesheet" href="/css/custom.css">
       <script src="/js/drop_down.js"></script> 
     </head>
+    
     <body>
-        <div class="container">
-          <div class="header-container">
-          <div class="header-left">
-              <a href="/">
-                  <img src="/images/logo.png" alt="Logo" class="logo">
-              </a>
+                <div class="container">
+                  <div class="header-container">
+                  <div class="header-left">
+                      <a href="/">
+                          <img src="/images/logo.png" alt="Logo" class="logo">
+                      </a>
+                  </div>
+                  <div class="header-right">
+        <img src="/images/closed.png" alt="Menu" class="menu-icon" id="menu-icon">
+        <div id="menu" class="menu">
+          <div class="menu-button" onclick="navigateTo('/');">Home</div>
+        <div class="menu-button" id="about-button">About</div>
+          <div id="about-dropdown" class="submenu">
+            <a href="/concept.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Concept</div></a>
+            <a href="/white_canvas.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• White Canvas</div></a>
+            <a href="/digital_processing.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Digital Processing</div></a>
+                <a href="/image_properties.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Image Properties</div></a>
+            <a href="/traits.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Traits</div></a>
+            <a href="/reveal_game.html" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• Reveal Game</div></a>
           </div>
-          <div class="header-right">
-          
-          
-          
-          
-          
-<img src="/images/closed.png" alt="Menu" class="menu-icon" id="menu-icon">
-<div id="menu" class="menu">
-  <div class="menu-button" onclick="navigateTo('/');">Home</div>
-<div class="menu-button" id="about-button">About</div>
-  <div id="about-dropdown" class="submenu">
-    <a href="/concept.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Concept</div></a>
-    <a href="/white_canvas.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• White Canvas</div></a>
-    <a href="/digital_processing.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Digital Processing</div></a>
-        <a href="/image_properties.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Image Properties</div></a>
-    <a href="/traits.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Traits</div></a>
-    <a href="/reveal_game.html" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• Reveal Game</div></a>
-  </div>
-<div class="menu-button" onclick="location.href='/revenue.html';">Revenue</div>
-  <div class="menu-button" id="team-button">Team</div>
-  <div id="team-dropdown" class="submenu">
-    <a href="/stefanb.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• StefanB</div></a>
-    <a href="/phovel.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Phovel</div></a>
-    <a href="/forria.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Forria</div></a>
-  </div>
-  <div class="menu-button" onclick="navigateTo('/contact.html');">Contact</div>
-    <a href="https://bioniq.io/launchpad/featured" style="text-decoration-color: #00000000;" target="_blank"><div class="menu-button">Collect</div></a>
-</div>
-  
-  
-  
-  </div>
-  </div>
-          <div class="body-container">
-            <div class="body-left web-content box">
-            <p>60% of Phyxls' minting revenue is divided among<a id="team-link" style="text-decoration-color: #00000000; color: #ffa500;"> team</a>
- members, while 40% is deposited into Phyxls’ <a href="/revenue.html" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">treasury</a> for future initiatives.<br><br>
-The royalty rate for this collection is 2.5%.</p>
-            </div>
-            <div class="body-left mobile-content box">
-            <p>60% of Phyxls' minting revenue is divided among<a id="team-link" style="text-decoration-color: #00000000; color: #ffa500;"> team</a>
- members, while 40% is deposited into Phyxls’ <a href="/revenue.html" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">treasury</a> for future initiatives.<br><br>
-The royalty rate for this collection is 2.5%.</p>
-            </div>
-            <div class="body-right">
-<img class="image-slider" src="/images/placeholder_1.png" alt="Image Slider" data-images="/images/placeholder_1.png,/images/placeholder_2.png">
-<script src="/js/image-slider.js"></script>
-            </div>
+        <div class="menu-button" onclick="location.href='/revenue.html';">Revenue</div>
+          <div class="menu-button" id="team-button">Team</div>
+          <div id="team-dropdown" class="submenu">
+            <a href="/stefanb.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• StefanB</div></a>
+            <a href="/phovel.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Phovel</div></a>
+            <a href="/forria.html" style="text-decoration-color: #00000000;"><div class="submenu-button">• Forria</div></a>
           </div>
+          <div class="menu-button" onclick="navigateTo('/contact.html');">Contact</div>
+            <a href="https://bioniq.io/launchpad/featured" style="text-decoration-color: #00000000;" target="_blank"><div class="menu-button">Collect</div></a>
+        </div>
+        </div>
+          </div>
+              <div class="body-container">
+                <div class="body-left web-content box">
+                <p>Upon Minting, all Phyxls display the image and metadata of "Phyxls #1".<br><br>
+Collectors can choose to reveal their Phyxls' true traits. Phyxls #1 is awarded to the first holder of more than 50% of the total supply of unrevealed Phyxls.</p>
+                </div>
+                <div class="body-left mobile-content box">
+                <p>Upon Minting, all Phyxls display the image and metadata of "Phyxls #1".<br><br>
+Collectors can choose to reveal their Phyxls' true traits. Phyxls #1 is awarded to the first holder of more than 50% of the total supply of unrevealed Phyxls.</p>
+                </div>
+                <div class="body-right">
+                  <img class="image-slider" src="/images/reveal_game_1.png" alt="Image Slider" data-images="/images/reveal_game_1.png,/images/reveal_game_2.png,/images/reveal_game_3.png,/images/reveal_game_4.png,/images/reveal_game_5.png,/images/reveal_game_6.png,/images/reveal_game_7.png,/images/reveal_game_8.png,/images/reveal_game_9.png,/images/reveal_game_10.png">
+                  <script src="/js/image-slider.js"></script>
+                </div>
+              </div>
     </body>
+    
   </html>
