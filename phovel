@@ -37,14 +37,11 @@
 <div id="menu" class="menu">
   <div class="menu-button" onclick="navigateTo('/');">Home</div>
 <div class="menu-button" id="about-button">About</div>
-  <div id="about-dropdown" class="submenu">
-    <a href="/concept" style="text-decoration-color: #00000000;"><div class="submenu-button">• Concept</div></a>
-    <a href="/white_canvas" style="text-decoration-color: #00000000;"><div class="submenu-button">• White Canvas</div></a>
-    <a href="/digital_processing" style="text-decoration-color: #00000000;"><div class="submenu-button">• Digital Processing</div></a>
-        <a href="/image_properties" style="text-decoration-color: #00000000;"><div class="submenu-button">• Image Properties</div></a>
-    <a href="/traits" style="text-decoration-color: #00000000;"><div class="submenu-button">• Traits</div></a>
-    <a href="/reveal_game" style="text-decoration-color: #00000000;"><div class="submenu-button">• Reveal Game</div></a>
-  </div>
+            <div id="about-dropdown" class="submenu">
+              <a href="/digitization" style="text-decoration-color: #00000000;"><div class="submenu-button">• Digitization</div></a>
+                  <a href="/metadata" style="text-decoration-color: #00000000;"><div class="submenu-button">• Metadata</div></a>
+              <a href="/phyxls_1" style="text-decoration-color: #00000000;"><div class="submenu-button">• Phyxls #1</div></a>
+            </div>
 <div class="menu-button" onclick="location.href='/revenue';">Revenue</div>
   <div class="menu-button" id="team-button">Team</div>
   <div id="team-dropdown" class="submenu">
@@ -62,10 +59,10 @@
   </div>
           <div class="body-container">
             <div class="body-left web-content box">
-            <p><a href="https://www.instagram.com/phovelofficial/" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Phovel</a> is an artist focused on watercolor painting, photography, filmmaking, animation, and digital art processing tools.</p>
+            <p><a href="https://www.instagram.com/phovelofficial/" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Phovel</a>’s art revolves around watercolor painting, photography, filmmaking, animation, and digital art processing tools.</p>
             </div>
             <div class="body-left mobile-content box">
-            <p><a href="https://www.instagram.com/phovelofficial/" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Phovel</a> is an artist focused on watercolor painting, photography, filmmaking, animation, and digital art processing tools.</p>
+            <p><a href="https://www.instagram.com/phovelofficial/" target="_blank" style="text-decoration-color: #00000000; color: #ffa500;">Phovel</a>’s art revolves around watercolor painting, photography, filmmaking, animation, and digital art processing tools.</p>
             </div>
             <div class="body-right">
 <img class="image-slider" src="/images/pfp_phovel.png" alt="Image Slider">
