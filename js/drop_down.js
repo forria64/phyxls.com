@@ -86,6 +86,13 @@ document.addEventListener('DOMContentLoaded', function() {
     openMenu();
     toggleAboutDropdown();
   }
+  
+  // Open menu on main pages
+  const pagesToOpenMenu = ['/contact', '/revenue'];
+  if (pagesToOpenMenu.includes(currentPage)) {
+    openMenu();
+  }
+
 });
 
 function navigateTo(url) {
