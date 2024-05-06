@@ -43,7 +43,7 @@
               <a href="/phyxls_1" style="text-decoration-color: #00000000;"><div class="submenu-button">• Phyxls #1</div></a>
             </div>
 <div class="menu-button" onclick="location.href='/revenue';">Revenue</div>
-  <div class="menu-button" id="team-button">Team</div>
+  <div class="menu-button menu-buton-autodropdown-select" id="team-button">Team</div>
   <div id="team-dropdown" class="submenu">
     <a href="/stefanb" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• StefanB</div></a>
     <a href="/phovel" style="text-decoration-color: #00000000;"><div class="submenu-button">• Phovel</div></a>

@@ -33,7 +33,7 @@
         <img src="/images/closed.png" alt="Menu" class="menu-icon" id="menu-icon">
         <div id="menu" class="menu">
           <div class="menu-button" onclick="navigateTo('/');">Home</div>
-        <div class="menu-button" id="about-button">About</div>
+        <div class="menu-button menu-buton-autodropdown-select" id="about-button">About</div>
             <div id="about-dropdown" class="submenu">
               <a href="/digitization" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• Digitization</div></a>
                   <a href="/metadata" style="text-decoration-color: #00000000;"><div class="submenu-button">• Metadata</div></a>
