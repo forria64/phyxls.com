@@ -37,7 +37,7 @@
             <div id="about-dropdown" class="submenu">
               <a href="/digitization" style="text-decoration-color: #00000000;"><div class="submenu-button">• Digitization</div></a>
                   <a href="/metadata" style="text-decoration-color: #00000000;"><div class="submenu-button">• Metadata</div></a>
-              <a href="/phyxls_1" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• Phyxls #1</div></a>
+              <a href="/phyxls_0" style="text-decoration-color: #00000000;"><div class="submenu-button-select">• Phyxls #0</div></a>
             </div>
         <div class="menu-button" onclick="location.href='/revenue';">Revenue</div>
           <div class="menu-button" id="team-button">Team</div>
@@ -53,10 +53,10 @@
           </div>
               <div class="body-container">
                 <div class="body-left web-content box">
-                <p>The Phyxls #1 ordinal acts as a certificate of authenticity for the physical canvas.<br><br>Both are awarded to the first holder of more than 50% of the total supply of unrevealed Phyxls.</p>
+                <p>The Phyxls #0 ordinal acts as a certificate of authenticity for the physical canvas.<br><br>Both are awarded to the first holder of more than 50% of the total supply of unrevealed Phyxls.</p>
                 </div>
                 <div class="body-left mobile-content box">
-                <p>The Phyxls #1 ordinal acts as a certificate of authenticity for the physical canvas.<br><br>Both are awarded to the first holder of more than 50% of the total supply of unrevealed Phyxls.</p>
+                <p>The Phyxls #0 ordinal acts as a certificate of authenticity for the physical canvas.<br><br>Both are awarded to the first holder of more than 50% of the total supply of unrevealed Phyxls.</p>
                 </div>
                 <div class="body-right">
                   <img class="image-slider" src="/images/reveal_game_1.png" alt="Image Slider" data-images="/images/reveal_game_1.png,/images/reveal_game_2.png,/images/reveal_game_3.png,/images/reveal_game_4.png,/images/reveal_game_5.png,/images/reveal_game_6.png,/images/reveal_game_7.png,/images/reveal_game_8.png,/images/reveal_game_9.png,/images/reveal_game_10.png">
