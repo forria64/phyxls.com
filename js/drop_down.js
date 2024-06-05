@@ -11,6 +11,15 @@ document.addEventListener('DOMContentLoaded', function() {
     localStorage.setItem('menuOpen', 'true'); // Store menu state
   }
 
+  function QuickOpenMenu() {
+    menuIcon.src = '/images/open.png'; // Change icon to open.png
+    menu.style.transform = 'translateX(0)';
+    menu.style.transition = 'none';  
+    isOpen = true;
+    localStorage.setItem('menuOpen', 'true'); // Store menu state
+  }
+
+
   // Function to close the menu
   function closeMenu() {
     menuIcon.src = '/images/closed.png'; // Change icon to closed.png
@@ -76,21 +85,21 @@ document.addEventListener('DOMContentLoaded', function() {
   const currentPage = window.location.pathname;
   const pagesToOpenTeamSubmenu = ['/forria', '/phovel', '/stefanb'];
   if (pagesToOpenTeamSubmenu.includes(currentPage)) {
-    openMenu();
+    QuickOpenMenu();
     toggleTeamDropdown();
   }
 
   // Open submenu on specific pages for About
   const pagesToOpenAboutSubmenu = ['/digitization', '/metadata', '/phyxls_0'];
   if (pagesToOpenAboutSubmenu.includes(currentPage)) {
-    openMenu();
+    QuickOpenMenu();
     toggleAboutDropdown();
   }
   
   // Open menu on main pages
   const pagesToOpenMenu = ['/contact', '/revenue'];
   if (pagesToOpenMenu.includes(currentPage)) {
-    openMenu();
+    QuickOpenMenu();
   }
 
 });
