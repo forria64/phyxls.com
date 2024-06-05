@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Open submenu on specific pages for About
-  const pagesToOpenAboutSubmenu = ['/digitization', '/metadata', '/phyxls_1'];
+  const pagesToOpenAboutSubmenu = ['/digitization', '/metadata', '/phyxls_0'];
   if (pagesToOpenAboutSubmenu.includes(currentPage)) {
     openMenu();
     toggleAboutDropdown();
